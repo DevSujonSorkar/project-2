@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear-div{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header-section{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #3480db;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.logo{
+    float: left;
+    width: 30%;
+    color: white;
+}
+
+
+.logo h2 {
+    padding-left: 51px;
+    padding-top: 21px;
+}
+
+.nav-menu{
+    float: right;
+    width: 70%;
+}
+.nav-menu ul{
+    text-align: center;
+}
+.nav-menu ul li{
+    display: inline-block;
+}
+.nav-menu ul li a{
+    padding: 23px 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+.nav-menu ul li a:hover{
+    background-color: #3071a7;
+}
+
+/* header sectoin end here */
+
+.banner-section{
+    width: 1170px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(img/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+
+.banner-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.banner-heading h2{
+    font-size: 37px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-heading p {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* banner sectoin end here */
+
+
+.about{
+    width: 1170px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(235, 232, 232);
+    position: relative;
+    
+}
+
+.about-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ 
+}
+
+.about-text h1{
+    font-size: 40px;
+    color: white;
+    background: rgb(133, 113, 113);
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+/* .about section end here */
+
+
+ .service-section{
+    width: 1170px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(186, 218, 218);
+
+ }
+ .service-1{
+     width: 300px;
+     float: left;
+     border: 1px solid black;
+     padding: 48px;
+     margin: 0 auto;
+     margin: 14px;
+     margin-left: 85px;
+     height: 161px;
+ }
+
+ .service-1 h1{
+    font-size: 29px;
+    margin-bottom: 6px;
+}
+
+ .service-2{
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+    padding: 29px;
+    margin: 0 auto;
+    margin: 15px;
+    margin-left: 25px;
+ }
+
+ .service-2 h1{
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+ .service-3{
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+    padding: 29px;
+    margin: 0 auto;
+    margin: 14px;
+    margin-left: 21px;
+ }
+
+ .service-3 h1{
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+ .service{
+      text-align: center;
+      padding-top: 46px;
+ }
+
+/* about section end here */
+
+
+.body-section{
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(147, 185, 185);
+}
+
+.body-section img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 107px;
+    margin-left: 50px;
+}
+
+.body-section p{
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 52px;
+    /* margin-right: 20px; */
+    width: 670px;
+    float: left;
+}
+
+
+/* body section end here */
+
+.footer-section{
+    background-color: black;
+    width: 1170px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
